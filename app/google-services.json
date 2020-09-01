@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461435168461",
+    "firebase_url": "https://policebharati-8da1d.firebaseio.com",
+    "project_id": "policebharati-8da1d",
+    "storage_bucket": "policebharati-8da1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461435168461:android:3f8a1f7dde58e0c3b66b84",
+        "android_client_info": {
+          "package_name": "mk.news.policebharati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461435168461-kjeua8tgjq6618it5njttl9shpc4jain.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.news.policebharati",
+            "certificate_hash": "d8c3fd7107d2b0e4b4b42daa0e55c47f121ba85c"
+          }
+        },
+        {
+          "client_id": "461435168461-t115sbldb261jf8hu9fglkhosmsm7eap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtfbApNZxUF6Ux5xOOlwjFAf2MctJA3ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461435168461-t115sbldb261jf8hu9fglkhosmsm7eap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

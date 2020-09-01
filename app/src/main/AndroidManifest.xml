@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mk.news.policebharati">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar"></activity>
+        <activity android:name=".About"
+            android:label="आमचा संपर्क"/>
+        <activity android:name=".QNA"
+            android:label="नवीन प्रश्नउत्तर"/>
+        <activity
+            android:name=".Details"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".CurrentAffairs"
+            android:label="चालु घडामोडी"/>
+        <activity android:name=".VideoGallary"
+            android:label="विडिओ"/>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

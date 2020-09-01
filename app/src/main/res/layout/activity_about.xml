@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:gravity="left"
+    tools:context=".About">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <ImageView
+                android:padding="5dp"
+                android:background="#1B50E3"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/icon"
+                />
+
+            <TextView
+                android:fontFamily="@font/scada"
+                android:gravity="center"
+                android:textColor="#f44336"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="बिझनेस इन्क्वारी \n
+कॉन्टॅक्ट नंबर.8793227914/7020242720
+मेल आयडी.surajmargam20@gmail.com
+WhatsApp number.8793227914"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/youtube"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/youtube"/>
+
+            <ImageView
+                android:layout_marginLeft="50dp"
+                android:id="@+id/telegram"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/telegram"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableRight="@drawable/whatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App Developer : 9370083371"
+                android:textSize="21sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="#000"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#f44336"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="जय महाराष्ट्र"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#000"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="नमस्कार ,मित्र आणि मैत्रिणींनो ,आपल्या अँप्लिकेशन वर स्वागत आहे.
+M K ALL NEWS ह्या  अँप्लिकेशन चा महत्वाचा
+उद्देश हा आपल्याला ,महाराष्ट्र शासन यांच्या
+सरकारी नोकरी च्या जाहिराती सर्वप्रथम ,खऱ्या व विस्तृत
+स्वरूपात पोहचिवणे आहे.
+महत्त्वाचं म्हणजे महाराष्ट्र पोलीस भरती संपूर्ण माहिती...
+ह्या छोट्याश्या प्रयत्नात आपली साथ मोलाची आहे।।
+आम्ही योग्य व अचूक माहिती देण्यासाठी नेहमी तत्पर आहोत।।
+ह्या गोष्टीचा नेहमी तुम्हाला फायदा होईल.
+काही सुधारणा कारवायांची असल्यास तुम्ही आम्हाला सांगू
+शकता."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#f44336"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="मित्रांनो हे अँप्लिकेशन डाउनलोड केल्याबद्दल धन्यवाद !!!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="आपणास हे अँप्लिकेशन आवडत असेल तर कृपया या अँप्लिकेशन ला रेटिंग करा आणि त्यावर आपल्या कमेंट द्या."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="मित्रांनो, हे अँप्लिकेशन वापरुन आपण आपले ज्ञान कोठेही व कधीही वाढवू शकता. आपल्याला नेहमीच मोठी पुस्तके घेऊन फिरणे आवश्यक नाही."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#f44336"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="या अँप्लिकेशन तुम्हाला पोलीस भरती साठी होणाऱ्या  परीक्षेच्या सर्व विषयांची माहिती देण्यात आली आहे, सर्व प्रश्न सामान्य ज्ञान परीक्षा परीक्षेशी संबंधित आहेत. या अँप्लिकेशन मध्ये जनरल नॉलेज (सामान्य ज्ञान) संग्रह आहे जो आपल्याला पोलीस भरती परीक्षेत मदत करेल."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="@font/scada"
+            android:layout_marginTop="12dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="आपला M K ALL NEWS...."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
